@@ -1,7 +1,7 @@
 {
-  "name": "Wiki-API",
+  "name": "wiki-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Build your own RESTful API from scratch.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,17 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "ejs": "^2.7.1",
+    "ejs": "^2.7.4",
     "express": "^4.17.1",
-    "mongoose": "^5.7.5"
-  }
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emr4706/Wiki-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emr4706/Wiki-API/issues"
+  },
+  "homepage": "https://github.com/emr4706/Wiki-API#readme"
 }

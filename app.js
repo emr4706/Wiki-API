@@ -102,8 +102,6 @@ app.route("/articles")
 });
 
 ///////////// Request targeting a specific  article ////////////////////////
-
-
 app.route("/articles/:articleTitle")
 .get( (req, res) => {
     Article.findOne({ title: req.params.articleTitle}, (err, foundArticle) => {
@@ -154,8 +152,6 @@ app.route("/articles/:articleTitle")
         }
     );
 });
-
-
 
 
 app.listen(3000, function() {
